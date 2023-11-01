@@ -34,4 +34,6 @@ system目录是系统文件目录，是与开发项目一个桥梁目录，里�
 
 我们在我们所需要的地址上将原来的system和config中的文件全部复制粘贴过去即可！
 
+需要注意的是，如果是idea，我们还要将idea.plugins.path 和 idea.log.path 的注释去掉，不然会报设置idea.plugins.path的错误(警告)
+
 重启IDE就好。
